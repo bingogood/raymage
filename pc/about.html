@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>荣誉资质</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style type="text/css">
+	@font-face {
+ font-family: '迷你简铁筋隶书.TTF';
+ src: url('../images');
+ src: local('迷你简铁筋隶书.TTF'),
+      local('fontName')
+     }
+</style>
+	</head>
+	<body>
+		<div class="header clear">
+			<div class="logo1">
+				<img src="images/logo1_03.jpg" width="118" height="75"/>
+			</div>
+			<div class="nav2">
+				<div><a href="index.html">首页</a></div>
+				<div><a href="aboutus.html" class="on">关于云影</a></div>
+				<div><a href="center.html">云影医学影像远程诊断中心</a></div>
+				<div><a href="product.html">产品与服务</a></div>
+				<div><a href="team.html">商业合作</a></div>
+				<div><a href="news.html">云影新闻</a></div>
+				<div><a href="contact.html">联系我们</a></div>
+			</div>
+			<div class="subna">
+				<a href="">公司概括</a>
+				<a href="">公司理念</a>
+				<a href="" class="on">荣誉资质</a>
+				
+			</div>
+		</div>
+		
+		<div class="banner">
+			<img src="images/banner_06.jpg" width="100%" height="600"/>
+		</div>
+		<div class="honor">
+			<h4>荣誉资质</h4>
+			<h6>HONOR   QUALIFICATIONS</h6>
+			<div class="honor-sec">
+				<div>2016年11月21日，云影医疗凭借雄厚的技术实力通过国家高新技术企业认定机构的层层审核与评估，最终获得“国家高新技术企业”荣誉称号。</div>
+				<div>2016年11月30日，云影医疗旗下深圳云影医学影像远程诊断中心获得了中国第一张第三方线上医学影像医疗机构执业许可证，为我们所服务的患者、医生和医疗机构带来更加权威的法律保障。</div>
+			   
+			</div>
+			
+			 <div class="honor-con clear">
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 	<div><img src="images/hon_07.jpg" width="216" height="299"/></div>
+			 </div>
+			<div class="add clear">
+				<span>more</span>
+			</div>
+			
+		</div>
+		
+		<iframe src="footer.html" width="100%" height="452" scrolling="no"></iframe>
+		
+		<script src="js/jquery-1.12.3.js"></script>
+		<script>
+		var wh=$('.honor-con').find('div').length
+		console.log(wh)
+		$(".add").click(function(){
+			    if(wh>12){
+			    	$('.honor-con').css({'height':'100%','ovflower':'initial'})
+			    }
+			
+			
+			})
+			$(".subna a").click(function(){
+         		$(".subna a").css('color','#646464')
+         		$(this).css('color','#006db6')
+         	})
+			
+			
+		</script>
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

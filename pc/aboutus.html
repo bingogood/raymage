@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>关于云影</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style type="text/css">
+	@font-face {
+ font-family: '迷你简铁筋隶书.TTF';
+ src: url('../images');
+ src: local('迷你简铁筋隶书.TTF'),
+      local('fontName')
+     }
+</style>
+	</head>
+	<body>
+		<div class="header clear">
+			<div class="logo1">
+				<img src="images/logo1_03.jpg" width="118" height="75"/>
+			</div>
+			<div class="nav2">
+				<div><a href="index.html">首页</a></div>
+				<div><a href="aboutus.html" class="on">关于云影</a></div>
+				<div><a href="center.html">云影医学影像远程诊断中心</a></div>
+				<div><a href="product.html">产品与服务</a></div>
+				<div><a href="team.html">商业合作</a></div>
+				<div><a href="news.html">云影新闻</a></div>
+				<div><a href="contact.html">联系我们</a></div>
+			</div>
+			<div class="subna">
+				<a href="#com1">公司概括</a>
+				<a href="#com2">公司理念</a>
+				<a href="#com3">荣誉资质</a>
+			</div>
+		</div>
+		<a id="com1"></a>
+		<div class="company">
+			<h3>公司概况</h3>
+			<h6>COMPANY PROFILE</h6>
+			<div>
+				云影医疗 是一家专注于数字化影像设备生产、医学影像云平台研发及医学影像云服务的国家级高新技术企业。旗下拥有两家子公司：云影医疗科技有限公司，云影医学影像远程诊断中心有限公司。
+			</div>
+			<div>
+				云影医疗成立伊始就以“为中小医疗机构提供专业医学影像服务”为宗旨，致力于为基层医疗机构打造整体性的医学影像信息化解决方案。凭借与国家超级计算中心联合打造的云计算平台，实现区域的信息化建设，落实基层“分级诊疗”模式的建立，推动智慧医疗的改革和普及，为中国基层医疗发展探索出一条真正适合国情的阳光之路。
+			</div>
+		</div>
+		<a id="com2"></a>
+		<div class="company1">
+			<h3>企业理念</h3>
+			<h6>CORPORATE PHILOSOPHY</h6>
+			<div>
+				企业文化：诚信、开放、创新、服务、尊重
+			</div>
+			<div>
+				企业宗旨：为中小医疗机构提供专业的医学影像服务
+			</div>
+			<div>
+				企业愿景：传递健康 传递幸福 传递希望
+			</div>
+		</div>
+		<a id="com3"></a>
+		<div class="company2">
+			<h3>公司资质</h3>
+			<h6>COMPANY QUALIFICATION</h6>
+			<div>
+				2016年11月21日，云影医疗凭借雄厚的技术实力通过国家高新技术企业认定机构的层层审核与评估，最
+终获得“国家高新技术企业”荣誉称号。
+			</div>
+			<div>
+				2016年11月30日，云影医疗旗下深圳云影医学影像远程诊断中心获得了中国第一张第三方线上医学影像
+医疗机构执业许可证，为我们所服务的患者、医生和医疗机构带来更加权威的法律保障。 
+			</div>
+			<div style="text-align: center; margin-top:40px; margin-bottom: 150px;">
+				<span><a href="about.html">more</a></span>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<iframe src="footer.html" width="100%" height="452" scrolling="no"></iframe>
+		
+		
+		
+		
+		
+		
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+	
+		$(window).scroll(function(){
+				var wk=$(window).scrollTop()
+			if(wk<10){
+				$('.company').find('h3').css({'padding-top':'280px','opacity':1,'transition':'500'})
+				setInterval(function(){
+					$('.company').find('h6').css({'opacity':1,'transition':'0.5s','margin-top':'20px'})
+				},500)
+				setInterval(function(){
+					$('.company').find('div').eq(0).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1000)
+				setInterval(function(){
+					$('.company').find('div').eq(1).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1500)
+			}
+			else if(wk>600 && wk<1200){
+				$('.company1').find('h3').css({'padding-top':'280px','opacity':1,'transition':'500'})
+				setInterval(function(){
+					$('.company1').find('h6').css({'opacity':1,'transition':'0.5s','margin-top':'20px'})
+				},500)
+				setInterval(function(){
+					$('.company1').find('div').eq(0).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1000)
+				setInterval(function(){
+					$('.company1').find('div').eq(1).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1500)
+				setInterval(function(){
+					$('.company1').find('div').eq(2).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},2000)
+			}
+			else if(wk>1000){
+				$('.company2').find('h3').css({'padding-top':'280px','opacity':1,'transition':'500'})
+				setInterval(function(){
+					$('.company2').find('h6').css({'opacity':1,'transition':'0.5s','margin-top':'20px'})
+				},500)
+				setInterval(function(){
+					$('.company2').find('div').eq(0).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1000)
+				setInterval(function(){
+					$('.company2').find('div').eq(1).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1500)
+				setInterval(function(){
+					$('.company2').find('div').eq(2).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},2000)
+			}
+		})
+		
+			
+			$(".subna a").click(function(){
+         		$(".subna a").css('color','#646464')
+         		$(this).css('color','#006db6')
+         	})
+			
+		</script>
+		
+		
+		
+	</body>
+</html>

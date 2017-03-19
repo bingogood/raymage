@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*cont1*/
+.wrap .main .textCont .cont1 {
+    background: url(../images/center_bg1.png) no-repeat;
+    background-size:100% 100%;
+    color: #eee;
+    height: 360px;
+
+}
+
+.wrap .main .textCont .cont1 h3 {
+    font-size: 130%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.wrap .main .textCont .cont1 h3 span {
+    font-size: 12px;
+
+}
+
+.wrap .main .textCont .cont1 p {
+    text-indent: 2em;
+    font-size: 12px;
+    text-align: left;
+    padding: 5%;
+    line-height: 24px;
+}
+
+/*cont2*/
+.wrap .main .textCont .cont2 {
+    height: 680px;
+}
+
+.wrap .main .textCont .cont2 ul li {
+    margin: 5px 0; display: block;
+}
+
+.wrap .main .textCont .cont2 ul li div img {
+
+    width: 48%;
+    margin: 2% 1%;
+    height: auto;
+    float: left;
+
+}
+
+/*cont3*/
+.wrap .main .textCont .cont3 {
+    height:300px;
+    background: url(../images/center_bg2.png) no-repeat;
+    background-size:100% 100%;
+
+}
+.wrap .main .textCont .cont3 h3{
+    font-size: 130%;
+    padding-top: 30%;
+    text-align: center;
+}
+.wrap .main .textCont .cont3 h3 span{
+    font-size:4px;
+}

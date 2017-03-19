@@ -1,0 +1,351 @@
+﻿@charset "utf-8";
+body, html {
+    height: 100%;
+    font: 14px/120% 'Microsoft YaHei', 'Arial';
+    background: #eee;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0 auto;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+fieldset, img, abbr, acronym {
+    border: 0;
+}
+
+em, strong, b, i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+table td, table th {
+    border: #ddd solid 1px;
+    padding: 5px 10px;
+}
+
+table th {
+    background: #176D97;
+    color: #fff;
+}
+
+table .new td {
+    color: #f60;
+    font-weight: bold;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.wrap .main .headerText, .wrap .main .secondMode, .wrap .main .threeMode, .wrap .main .fourMode, .wrap .main .fiveMode, .wrap .main .sixMode {
+    background: #eee;
+    width: auto;
+    text-align: center;
+}
+
+.navTop {
+    width: 100%;
+    top: 0;
+    height: 50px;
+    position: fixed;
+    background: #1a1a1a;
+    vertical-align: middle;
+    z-index: 100;
+}
+
+.navTop .logoImg img {
+    float: left;
+    margin: 10px 10px;
+    height: 80%;
+
+}
+
+.navTop .navImg img {
+    float: right;
+    margin: 15px 10px;
+    height: 40%;
+}
+
+/*导航功能menu*/
+.rightNav {
+    width: 60%;
+    opacity: 0.9;
+    background: #1a1a1a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 100;
+}
+
+.rightNav .off {
+    text-align: right;
+    padding-right: 30px;
+    margin: 10px 0;
+}
+
+.rightNav a {
+    line-height: 32px;
+    color: #fff;
+}
+
+.rNavCont {
+    padding: 5px 10px;
+}
+
+/*end*/
+/*返回顶部*/
+.blacKTop a {
+    float: right;
+    position: fixed;
+    z-index: 100;
+    bottom: 50px;
+    right: 10px;
+}
+
+.section1 {
+    color: #eee;
+    background: url("../images/no1.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.section1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.section1 h3 span {
+    font-size: 60%;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.section1 p {
+    font-size: 18px;
+    opacity: 0.7;
+    font-family: 宋体;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 180%;
+}
+
+/*section2*/
+.section2 {
+    background: url("../images/firstBg.png") no-repeat;
+    background-size: 100% 100%;
+    color: #eee;
+}
+
+.section2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-30%;
+}
+
+.section2 h3 span {
+    font-size: 60%;
+    opacity: 0.7;
+    font-weight: 500;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.section2 p {
+    font-size: 14px;
+    opacity: 0.9;
+    font-family: 宋体;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 180%;
+}
+.section2 button {
+    background: url("../images/btn.png");
+    width: 120px;
+    height: 32px;
+    padding: 0 6px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+
+}
+
+/*section3*/
+.section3 {
+    background: url("../images/no2.png") no-repeat;
+    background-size: 100% 100%;
+    color: #000;
+}
+.section3 .holistic {
+    border: 15px solid #87cefa;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 115px;
+    -moz-border-radius: 115px;
+    border-radius: 115px;
+    color:#000;
+
+}
+
+.section3 .holistic div {
+    margin: 15px;
+    text-align: center;
+}
+
+.section3 .holistic div h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 3px;
+    line-height: 28px;
+
+}
+.section3 .holistic div h5{
+    font-size:12px;
+    color:#000;
+
+}
+.section3 .listCont ul li{
+    width:100%;
+}
+.section3 .listCont ul li .info_sell{
+    float:left;
+
+}
+.section3 .listCont ul li .info_sell img{
+   width: 100px;
+    height:auto;
+}
+.section3 .listCont ul li .info_sell h5{
+   text-align:center;
+    margin-top:-70px;
+    font-size:14px;
+}
+.section3 .listCont ul li .info_sell div p{
+    text-align:center;
+    font-size:12px;
+}
+.section3 .listCont ul li .info_sell .details{
+    margin-top:30px;
+    color:#000;
+    opacity:0.9;
+}
+.section3 .info_sell p {
+    font-size: 14px;
+}
+
+/*section4*/
+.section4{
+    background: url("../images/backBg.png") no-repeat;
+    background-size: 100% 100%;
+
+}
+.section4 .detCont{
+    margin-top:300px;
+}
+.section4 ul li p {
+    disply: block;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding: 10px 5%;
+    color: #000;
+}
+.section4 ul li p span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*section5*/
+.section5{
+    background: url("../images/fiveBg.png") no-repeat;
+    background-size: 100% 100%;
+    color: #000;
+    text-align: center;
+}
+.section5 div h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 24px;
+}
+.section5 div h3 span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.section5 div p{
+    text-align:left;
+    text-indent: 2em;
+    font-size:16px;margin-top:20px;
+    padding:0 4%;
+    line-height:24px;
+    color:#eee;
+}
+/*section6*/
+.section6 {
+    background: url("../images/six.png") no-repeat;
+    background-size: 100% 100%;
+}
+.section6 div{
+    padding-left: 10%;
+    text-align:left;
+}
+.section6 div ul li h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    line-height: 24px;
+}
+.section6 div ul li h3 span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.section6 div ul li a{
+    font-size: 14px;
+    float: left;
+    text-align:left;
+    color:#45b1ed;
+    padding-top:20px;
+    margin-right:5%;
+}
+.section6 div ul li a img{
+    width: 48px;
+    height:auto;
+}

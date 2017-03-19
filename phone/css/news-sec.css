@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html,body{background:#fff !important;}
+/*newsCount*/
+.wrap .main .newsCount .cont1 img,.wrap .main .newsCount .cont3 img{
+    width:100%;
+}
+.wrap .main .newsCount .cont2 h3{
+  font-size:150%;
+    color:#b5b5b5;
+    text-align:center;
+    padding:10% 0;
+}
+.wrap .main .newsCount .cont2 h3 span{
+    font-size:12px;
+}
+.wrap .main .newsCount .cont2 p{
+    font-size:110%;
+    line-height:28px;
+}
+.wrap .main .newsCount .cont2 .article{
+    font-size:12px;
+    color:#7f7e7e;
+}
+.wrap .main .newsCount .cont2 .link{
+    float:right;
+}
+.wrap .main .newsCount .cont4 p{
+    text-indent: 2em;
+    font-size:110%;
+    line-height:24px;
+    margin:20px 8px;
+}
+.wrap .main .newsCount .cont4 .page{
+    width:auto;
+    height:30px;
+}
+.wrap .main .newsCount .cont4 a{
+    padding:10px 50px;
+}
+.wrap .main .newsCount .cont4 a .prev{
+    float:left;
+}
+.wrap .main .newsCount .cont4 a .next{
+    float:right;
+}
+/*foot*/
+.wrap .main .footHr {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.wrap .main .footHr button {
+    border: 1px solid #5892c7;
+    border-radius: 5px;
+    line-height: 28px;
+    width: 30%;
+    background: none;
+}
+
+.wrap .main ol {
+    padding: 20px 2%;
+}
+

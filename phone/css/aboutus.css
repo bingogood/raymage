@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.wrap .main .aboutCont .cont1,.wrap .main .aboutCont .cont2 {
+    background: #eee;
+    height: 680px;
+    width: auto;
+    text-align: center;
+}
+
+.wrap .main .aboutCont .cont1 {
+    background: url('../images/aboutus_bg1.png') no-repeat;
+    background-size:100% 100%;
+    color: #eee;
+}
+
+.wrap .main .aboutCont .cont1 h3,.wrap .main .aboutCont .cont2 h3,.wrap .main .aboutCont .cont3 h3 {
+    font-size: 130%;
+    padding-top: 25%;
+
+}
+
+.wrap .main .aboutCont .cont1 h3 span,.wrap .main .aboutCont .cont2 h3 span,.wrap .main .aboutCont .cont3 h3 span {
+    font-size: 12px;
+}
+
+.wrap .main .aboutCont .cont1 p {
+    text-indent: 2em;
+    font-size: 16px;
+    text-align: left;
+    padding: 0 5%;
+    line-height: 24px;
+}
+/*cont2*/
+.wrap .main .aboutCont .cont2 h3{
+    padding-bottom:40px;
+}
+
+.wrap .main .aboutCont .cont2 {
+    background: url('../images/aboutus_bg2.png') no-repeat;
+    background-size:100% 100%;
+    color: #000;
+}
+.wrap .main .aboutCont .cont2 p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+}
+/*cont3*/
+.wrap .main .aboutCont .cont3 h3{
+    text-align:center;
+}
+.wrap .main .aboutCont .cont3 p{
+    text-align:left;
+    padding:0 5%;
+    margin-top:14px;
+}
+
+/*foot*/
+.wrap .main .footHr {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.wrap .main .footHr button {
+    border: 1px solid #5892c7;
+    border-radius: 5px;
+    line-height: 28px;
+    width: 30%;
+    background: none;
+}
+
+.wrap .main ol {
+    padding: 20px 2%;
+}
+

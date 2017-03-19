@@ -1,0 +1,83 @@
+@charset "UTF-8";
+html,body{background:#fff !important;}
+
+
+
+.wrap .main .contactCont img{
+  width:100%;
+}
+.wrap .main h3{
+    font-size:18px;
+    font-weight: 600;
+    text-align:center;
+    padding:15px 0;
+}
+.wrap .main h3 span{
+    font-size:12px;
+    font-family:'宋体';
+
+}
+.wrap .main .wechat{
+    float:right;
+    width:64px;
+    height:auto;
+}
+
+.wrap .main .footHr{
+    margin:30px 0;
+    text-align:center;
+}
+.wrap .main .footHr button{
+    border:1px solid #5892c7;
+    border-radius:5px;
+    line-height:28px;
+    width: 30%;
+    background:none;
+}
+
+.wrap .main ol {
+    padding:20px 2%;
+    line-height:24px;
+}
+.wrap .main ol .localText{
+    width:70%;
+    float:left;
+}
+.wrap .main ol .localText .f16{
+  font-size:12px;
+}
+.wrap .main ol .wechat{
+    width:30%;
+}
+.wrap .main ol li{
+    font-size:12px;
+}
+.f16{
+    color:#5892c7;
+    font-size:16px;
+    font-weight:600;
+}
+.f12{
+    color:#5892c7;
+    font-size:12px;
+    font-weight:500;
+}
+
+/*foot*/
+.wrap .main .footHr {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.wrap .main .footHr button {
+    border: 1px solid #5892c7;
+    border-radius: 5px;
+    line-height: 28px;
+    width: 30%;
+    background: none;
+}
+
+.wrap .main ol {
+    padding: 20px 2%;
+}
+

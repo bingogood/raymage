@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>关于云影</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style type="text/css">
+	@font-face {
+ font-family: '迷你简铁筋隶书.TTF';
+ src: url('../images');
+ src: local('迷你简铁筋隶书.TTF'),
+      local('fontName')
+     }
+</style>
+	</head>
+	<body>
+		<div class="header clear">
+			<div class="logo1">
+				<img src="images/logo1_03.jpg" width="118" height="75"/>
+			</div>
+			<div class="nav2">
+			<div><a href="index.html">首页</a></div>
+				<div><a href="aboutus.html" class="on">关于云影</a></div>
+				<div><a href="center.html">云影医学影像远程诊断中心</a></div>
+				<div><a href="product.html">产品与服务</a></div>
+				<div><a href="team.html">商业合作</a></div>
+				<div><a href="news.html">云影新闻</a></div>
+				<div><a href="contact.html">联系我们</a></div>
+			</div>
+			<div class="subna">
+				<a href="#com1">商业合作</a>
+				<a href="#com2">合作模式</a>
+				
+			</div>
+		</div>
+		<a id="com1"></a>
+		<div class="company" id="team">
+			<h3>商业合作</h3>
+			<h6>BUSINESS COOPERATION</h6>
+			<div>
+				云影医疗旗下云影医学影像远程诊断中心有限公司作为全国首家获得诊断执业资格证
+			</div>
+			<div>
+		的第三方医疗机构，针对基层医疗机构普遍缺乏专业的医学影像医生资源的痛点，通过整合线上
+			</div>
+			<div>
+				及线下的医生资源，致力于为基层医疗机构提供更多定制化的远程医学影像云服务.
+
+			</div>
+		</div>
+	    <a id="com2"></a>
+	    <div class="company1" id="team1">
+	    	<h3>合作模式</h3>
+			<h6>COMPANY QUALIFICATION</h6>
+			<ul class="team-con clear">
+				<li><p style="text-align: right;"><span>云影提供云端信息化服务 </span><img src="images/team2_03.png" alt="" width="63" height="55" /></p>
+				<p>云影医疗 专注于为医疗机构提供云端信息化服务, 
+帮助医疗机构打造信息一体化，打破医疗机构信息
+孤岛严重的困境。</p>
+				</li>
+				<li><p style="text-align: left;"><img src="images/team2_05.png" alt="" width="63" height="55" /><span>资源共享 合作共赢</span></p>
+				<p>云影医疗 旗下 云影医学影像远程诊断中心 已获得
+中国第一张线上医疗机构执业资格证，致力于为医
+疗机构提供合法的第三方的医学影像云服务。</p>
+				</li>
+				<li><p style="text-align: center;"><img src="images/team2_10	.png" alt="" width="63" height="55" /><span>云端服务学术交流</span></p>
+				<p>云影医疗 线上整合各大医院专家资源为合作医疗机构提供专业的医学影像
+云服务，同时还可以为合作医疗机构提供远程的专业培训服务。</p>
+				</li>
+				
+				
+			</ul>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	    </div>
+	    
+		
+		
+		
+		
+		
+		
+		<iframe src="footer.html" width="100%" height="452" scrolling="no"></iframe>
+		
+		
+		
+		
+		
+		
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+	
+		$(window).scroll(function(){
+				var wk=$(window).scrollTop()
+			if(wk<10){
+				$('.company').find('h3').css({'padding-top':'280px','opacity':1,'transition':'500'})
+				setInterval(function(){
+					$('.company').find('h6').css({'opacity':1,'transition':'0.5s','margin-top':'20px'})
+				},500)
+				setInterval(function(){
+					$('.company').find('div').eq(0).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1000)
+				setInterval(function(){
+					$('.company').find('div').eq(1).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},1500)
+				setInterval(function(){
+					$('.company').find('div').eq(2).css({'opacity':1,'transition':'0.5s','margin-top':'0'})
+				},2000)
+			}
+			else if(wk>600 && wk<1200){
+				$('.company1').find('h3').css({'padding-top':'280px','opacity':1,'transition':'500'})
+				setInterval(function(){
+					$('.company1').find('h6').css({'opacity':1,'transition':'0.5s','margin-top':'20px'})
+				},500)
+				
+			}
+			
+		})
+		
+			$(".subna a").click(function(){
+         		$(".subna a").css('color','#646464')
+         		$(this).css('color','#006db6')
+         	})
+			
+			
+		</script>
+		
+		
+		
+	</body>
+</html>

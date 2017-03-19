@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html,body{background:#fff !important;}
+
+/*aboutBg*/
+.wrap .main .aboutBg img{
+    width:100%;
+}
+.wrap .main .aboutText h3{
+    font-size:150%;
+    padding-top:10%;
+    text-align:center;
+}
+.wrap .main .aboutText h3 span{
+    font-size:12px;
+}
+.wrap .main .aboutText p{
+    font-size:16px;
+    line-height:24px;
+    padding:3% 5%;
+}
+/*aboutImg*/
+.wrap .main .aboutImg {
+    height: 680px;
+}
+
+.wrap .main .aboutImg ul li {
+    margin: 5px 0;
+    display: block;
+}
+
+.wrap .main .aboutImg ul li div img {
+
+    width: 48%;
+    margin: 2% 1%;
+    height: auto;
+    float: left;
+
+}
+
+
+/*foot*/
+.wrap .main .footHr {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.wrap .main .footHr button {
+    border: 1px solid #5892c7;
+    border-radius: 5px;
+    line-height: 28px;
+    width: 30%;
+    background: none;
+}
+
+.wrap .main ol {
+    padding: 20px 2%;
+}
+
